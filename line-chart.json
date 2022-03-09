@@ -1,0 +1,188 @@
+{
+    "chart": {
+      "enabled": true,
+      "title": {
+        "enabled": true,
+        "text": ""
+      },
+      "padding": {
+        "left": 10,
+        "top": 10,
+        "bottom": 5,
+        "right": 20
+      },
+      "bounds": {
+        "left": "5%"
+      },
+      "tooltip": {
+        "enabled": true,
+        "hAlign": "left",
+        "title": {
+          "enabled": true,
+          "background": {
+            "enabled": false,
+            "fill": "#ffffff"
+          }
+        }
+      },
+      "credits": {
+        "url": "http://anychart.com",
+        "alt": "AnyChart.com",
+        "enabled": false
+      },
+      "legend": {
+        "zIndex": 20,
+        "enabled": false,
+        "textOverflow": "",
+        "tooltip": {
+          "enabled": false,
+          "allowLeaveScreen": false,
+          "title": {
+            "enabled": false,
+            "background": {
+              "enabled": false,
+              "fill": "#ffffff"
+            }
+          }
+        }
+      },
+      "xScale": 0,
+      "yScale": 1,
+      "series": [
+        {
+          "enabled": true,
+          "seriesType": "line",
+          "meta": {},
+          "tooltip": {
+            "enabled": true,
+            "minFontSize": 9,
+            "maxFontSize": 13,
+            "adjustFontSize": {
+              "width": false,
+              "height": false
+            },
+            "fontSize": 12,
+            "fontFamily": "Verdana, Helvetica, Arial, sans-serif",
+            "fontColor": "#Ff0099",
+            "fontOpacity": 1,
+            "fontDecoration": "none",
+            "fontStyle": "normal",
+            "fontVariant": "normal",
+            "fontWeight": "normal",
+            "letterSpacing": "normal",
+            "textDirection": "ltr",
+            "lineHeight": "normal",
+            "textIndent": 0,
+            "vAlign": "top",
+            "hAlign": "left",
+            "textOverflow": "",
+            "selectable": false,
+            "disablePointerEvents": false,
+            "useHtml": false,
+            "valuePrefix": "",
+            "valuePostfix": "",
+            "position": "left-top",
+            "anchor": "left-top",
+            "offsetX": 10,
+            "offsetY": 10,
+            "title": {
+              "zIndex": 1,
+              "enabled": true,
+              "fontSize": 14,
+              "fontFamily": "Verdana, Helvetica, Arial, sans-serif",
+              "fontColor": "#ffffff",
+              "fontOpacity": 1,
+              "fontDecoration": "none",
+              "fontStyle": "normal",
+              "fontVariant": "normal",
+              "fontWeight": "normal",
+              "letterSpacing": "normal",
+              "textDirection": "ltr",
+              "lineHeight": "normal",
+              "textIndent": 0,
+              "vAlign": "top",
+              "hAlign": "left",
+              "textOverflow": "",
+              "selectable": false,
+              "disablePointerEvents": false,
+              "useHtml": false,
+              "align": "left",
+              "orientation": "top",
+              "rotation": 0,
+              "text": "",
+              "background": {
+                "enabled": false,
+                "fill": "#ffffff",
+                "stroke": "none",
+                "cornerType": "round",
+                "corners": 0
+              }
+            },
+            "separator": {
+              "zIndex": 1,
+              "enabled": true,
+              "fill": {
+                "color": "#CECECE",
+                "opacity": 0.3
+              },
+              "stroke": "none",
+              "width": "100%",
+              "height": 1,
+              "orientation": "top"
+            },
+            "background": {
+              "zIndex": 0,
+              "enabled": true,
+              "fill": {
+                "color": "#212121",
+                "opacity": 0.7
+              },
+              "stroke": "none",
+              "cornerType": "round",
+              "corners": 3
+            },
+            "hideDelay": 0
+          },
+          "normal": {
+            "labels": {
+              "enabled": false,
+              "position": "centerTop",
+              "anchor": "left-bottom"
+            },
+            "markers": {
+              "enabled": false,
+              "position": "center"
+            }
+          },
+          "a11y": {
+            "enabled": true
+          },
+          "data": [
+            1.1,
+            1.4,
+            1.2,
+            1.6
+          ],
+          "xScale": 0,
+          "yScale": 1
+        }
+      ],
+      "xAxes": [
+        {}
+      ],
+      "yAxes": [
+        {}
+      ],
+      "scales": [
+        {
+          "ticks": {
+            "interval": 1
+          }
+        },
+        {
+          "comparisonMode": "none"
+        }
+      ],
+      "type": "line"
+    }
+  }
